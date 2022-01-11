@@ -1,13 +1,13 @@
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <groupId>@groupId@</groupId>
-  <artifactId>@artifactId@</artifactId>
-  <version>@version@</version>
+  <groupId>testgroup</groupId>
+  <artifactId>java-artifact</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>jar</packaging>
 
-  <name>@ant.project.name@</name>
-  <description>@description@</description>
-  <url>@project.url@</url>
+  <name>maven.project.name</name>
+  <description>description</description>
+  <url>http://maven.apache.org</url>
 
   <licenses>
     <license>
@@ -16,13 +16,6 @@
       <distribution>repo</distribution>
     </license>
   </licenses>
-
-  <scm>
-    <connection>
-      scm:git:@project.repo.url@
-    </connection>
-    <url>@project.scm.url@</url>
-  </scm>
 
   <developers>
     <developer>
